@@ -51,6 +51,7 @@ In Python, you can make sure that you are working with the development version::
     >>> eelbrain
     <module 'eelbrain' from '/Users/me/Code/Eelbrain/eelbrain/__init__.py'>
 
+Dependency changes should be updated in the ``env-dev.yml`` file. 
 
 Opening Issues
 --------------
@@ -85,7 +86,7 @@ The steps below outline the recommended workflow.
 
 1. **Create a Fork** of `Eelbrain <https://github.com/Eelbrain/Eelbrain>`_.
 2. **Create a Branch**: Create a new branch from ``main`` for each feature or fix.
-3. **Commit Changes**: Make your changes and commit them.
+3. **Commit Changes**: Make your changes and commit them. Keep individual commit messages to a minimum as they will be filtered when merging. 
 4. **Test Locally**:
    Add tests for new features and bug fixes to ensure code quality and prevent regressions.
    Run existing tests to make sure nothing breaks (see :ref:`dev-testing`).
