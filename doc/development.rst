@@ -51,6 +51,10 @@ In Python, you can make sure that you are working with the development version::
     >>> eelbrain
     <module 'eelbrain' from '/Users/me/Code/Eelbrain/eelbrain/__init__.py'>
 
+Install build_ext using setup.py by running::
+
+    $ python setup.py build_ext --inplace
+
 Dependency changes should be updated in the ``env-dev.yml``, ``pyproject.toml`` and ``env-readthedocs.yml`` file. 
 
 Opening Issues
